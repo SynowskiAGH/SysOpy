@@ -43,7 +43,7 @@ while True:
 
             # jeżeli go nie otrzymaliśmy, to znaczy, że serwer zakończył działanie (będzie otrzymywał w kółko dane)
             if not len(username):
-                print('Connection closed by the server')
+                print('Połączenie zamknięte przez serwer')
 
                 sys.exit()
 
